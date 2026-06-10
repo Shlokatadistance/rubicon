@@ -7,6 +7,7 @@ Functions:
 import os
 import databento
 
+
 class DatabentoClient:
     def __init__(self):
         self.api_key = os.getenv("DB_API_KEY")
